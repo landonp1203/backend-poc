@@ -20,6 +20,7 @@
     "codecov": "^3.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.0.0",
+    "node-mocks-http": "^1.6.6",
     "nodemon": "^1.14.12"
   }
 }
