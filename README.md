@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/landonp1203/backend-poc.svg?branch=master)](https://travis-ci.org/landonp1203/backend-poc) [![codecov](https://codecov.io/gh/landonp1203/backend-poc/branch/master/graph/badge.svg)](https://codecov.io/gh/landonp1203/backend-poc)
 
 # How to run
 
