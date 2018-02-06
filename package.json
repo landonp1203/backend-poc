@@ -6,8 +6,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "mocha",
-    "cover": "istanbul cover _mocha",
-    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+    "cover": "istanbul cover _mocha"
   },
   "author": "Landon Patmore",
   "license": "ISC",
@@ -17,10 +16,8 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.0.0",
-    "mocha-lcov-reporter": "^1.3.0",
     "nodemon": "^1.14.12"
   }
 }
