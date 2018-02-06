@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "mocha",
-    "cover": "istanbul cover _mocha"
+    "cover": "istanbul cover _mocha -- -R spec",
+    "codecov": "codecov"
   },
   "author": "Landon Patmore",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
+    "codecov": "^3.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.0.0",
     "nodemon": "^1.14.12"
