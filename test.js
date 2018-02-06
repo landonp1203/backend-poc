@@ -6,4 +6,7 @@ describe(".validation(typed_word)", function() {
         assert(val.validation("oswego") === true);
     });
 
+    it("should return false for words in the dictionary", function(){
+        assert(val.validation("volcano") === false);
+    });
 });
