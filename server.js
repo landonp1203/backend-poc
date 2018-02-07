@@ -50,6 +50,7 @@ app.set("json spaces", 2)
 /**
  * Setting the routes to be used
  */
+
 app.use("/", index);
 app.use("/api", [words, validation]);
 
@@ -59,3 +60,5 @@ app.use("/api", [words, validation]);
 app.listen(port, function(){
 	console.log("Server started on port " + port);
 });
+
+module.exports = app;

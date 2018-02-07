@@ -9,7 +9,7 @@ const router = express.Router();
  * @returns {String} - tells the user that the server is working
  */
 router.get("/", function (req, res, next) {
-	res.send("<h1>Server is working</h1>");
+	res.send("Server is working");
 });
 
 module.exports = router;
